@@ -34,12 +34,12 @@ function Signup() {
     };
     return (
 
-        <div className="container">
+        <div className="container1">
             <Helmet>
                 <title>SICS | Sign Up</title>
                 <link rel="icon" href="Logo.svg" type="image/svg"/>
             </Helmet>
-            <img className="Logo" src={Logo} id={Logo} width="150" height="120"/><br/><br/>
+            <img className="Signup1" src={Logo} id={Logo} width="150" height="120"/><br/><br/>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <label>SignUp to continue to</label><br/><label> SICS Dashboard</label><br/>
                 <input className="FirstName" type="text" placeholder="FirstName" {...register("first_name")}
