@@ -53,7 +53,7 @@ function Signup() {
                        required/><br></br>
 
                 <input className="CompanyName" type="text" placeholder="Company Name"  {...register("company_name")}
-                       required/><br></br><br></br>
+                       required/><br></br>
 
                 <button className="SignUp" type="submit">Sign Up</button>
                 <br></br>
