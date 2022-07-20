@@ -1,49 +1,68 @@
 body{
     background-image: url("design.jpg");
+
+
 }
 
-
+html{
+    font-size:62.5%;
+}
+@media(max-width:1000px){
+    html{
+        font-size:45%
+    }
+}
+@media(max-width:800px){
+    html{
+        font-size:30%
+    }
+}
+@media(max-width:600px){
+    html{
+        font-size:20%
+    }
+}
 .container1{
     width: 50%;
     background-color: #F2EAC5;
 
     position: absolute;
     height: 100%;
-    margin-left: -5px;
-    margin-top: -9px;
+    margin-left: -.5rem;
+    margin-top: -.9rem;
 
 }
 input{background: #F2EAC5;
     border-style: solid;
-    border-width: 1px;
+    border-width: .1rem;
     border-color: #000000;
     color: #000000;
-    height: 35px;
-    width: 350px;
-    border-radius: 8px;
+    height: 3.5rem;
+    width: 35rem;
+    border-radius: .8rem;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    font-size:14px;
-    margin-top: 25px;
+    font-size:1.4rem;
+    margin-top: 2.5rem;
     margin-left: 25%;
 
 }
-.SignUp{ margin-top: 5px;
+.SignUp{ margin-top: .5rem;
     background-color: #000000;
     border: none;
     position: fixed;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 1.0rem;
     text-align: center;
     color: #FFFFFF;
     font-weight: bold;
-    height: 40px;
-    width: 355px;
-    border-radius: 6px;
-    margin-bottom: 10px;
+    height: 4.0rem;
+    width: 35.5rem;
+    border-radius: .6rem;
+    margin-bottom: 1.0rem;
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     margin-left: 12.5%;
 
 
@@ -53,7 +72,7 @@ input{background: #F2EAC5;
 }
 .sign{
     color: #000000;
-    padding-left: 25px;
+    padding-left: 2.5rem;
     margin-left: 25%;
 }
 a:link {
@@ -78,9 +97,9 @@ label{
     color: #000000;
     font: 4em sans-serif;
     font-weight: bold;
-    padding-left: 45px;
-    margin-bottom: 20px;
-    font-size: 30px;
+    padding-left: 4.5rem;
+    margin-bottom: 2.0rem;
+    font-size: 3.0rem;
     margin-left: 25%;
 
 
@@ -96,9 +115,9 @@ label{
 
 .sign{
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: normal;
-    padding-left: 75px;
+    padding-left: 7.5rem;
 }
 ::placeholder {
     color: black;
