@@ -33,6 +33,7 @@ function Signup() {
 
     };
     return (
+        <html>
 
         <div className="container1">
             <Helmet>
@@ -64,7 +65,7 @@ function Signup() {
 
         </div>
 
-
+       </html>
 
 
     )
